@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="style.css">  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <!--Header-->
+  <div class="header">
+    <img src="img/logo.svg" alt="" class="logo">
+    <div class="poeni">
+      <h3>Score</h3>
+      <h1>12</h1>
+    </div>
+  </div>
+  <!--End Header-->
+
+  <!--Game-->
+  <div class="game">
+    <div class="row">
+      <img src="img/icon-paper.svg" alt="" class="paper bttpaper">
+      <img src="img/icon-scissors.svg" alt="" class="sciss bttsciss">
+    </div>
+    <div class="row">
+      <img src="img/icon-rock.svg" alt="" class="rock bttrock">
+    </div>
+  </div>
+  <!--End Game-->
+  <!--Win Lose -->
+  <div class="main">
+    <div class="step-2">
+      <div class="your">
+        <h1>You Picked</h1>
+        <img src="img/icon-paper.svg" alt="" class="paper">
+      </div>
+      <div class="win_lose">
+        <h1></h1>
+        <p class="play_again">Play Again</p>
+      </div>
+      <div class="bot">
+        <h1>The House Picked</h1>
+        <img src="img/icon-scissors.svg" alt="" class="sciss">
+      </div>
+    </div>
+    <div class="win_lose mobile">
+      <h1></h1>
+      <p class="play_again">Play Again</p>
+    </div>
+  </div>
+  <!--End Win Lose-->
+
+  <!--Rules-->
+  <h3 class="rules">  Rules</h3>
+  <div class="modal">
+    <div class="modal-content">
+      <div class="nav">
+        <h1>Rules</h1>
+        <img src="img/icon-close.svg" alt="" class="close desk">
+      </div>
+      <img src="img/image-rules.svg" alt="" class="img">
+      <img src="img/icon-close.svg" alt="" class="close mobile">
+    </div>
+    
+  </div>
+  <!--End Eules-->
+
+  <script src="main.js"></script>
+</body>
+</html>
